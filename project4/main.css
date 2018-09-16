@@ -1,0 +1,37 @@
+.form_body {
+    background-color: #f3f3f3;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    border: solid 2px #3a3a3a;
+    max-width: 600px;
+}
+.form_body input {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.form_body h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#button {
+    background-color: #00294b;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#button:hover {
+    background-color: white;
+    color: #00294b;
+    border: solid 1px #00294b;
+}
