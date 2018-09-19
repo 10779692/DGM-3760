@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 5</title>
+	<meta content="The HTML5 Herald" name="description">
+	<meta content="SitePoint" name="author">
+	<link href="main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="form_body">
+		<h3>Add Employee</h3>
+		<form action="saveToDatabasePractice.php" enctype="multipart/form-data" id="travelInfo" method="post" name="travelInfo">
+			First name:<br>
+			<input name="firstname" type="text" value=""><br>
+			Last name:<br>
+			<input name="lastname" type="text" value=""><br>
+			Phone:<br>
+			<input name="phone" type="tel" value=""><br>
+			<br>
+			Department:<br>
+			<select name="dept">
+				<option value="internet_technologies">
+					Internet Technologies
+				</option>
+				<option value="Video">
+					Video
+				</option>
+				<option value="Audio">
+					Audio
+				</option>
+				<option value="Design">
+					Design
+				</option>
+			</select><br>
+			Upload File:<br>
+			<input name="photo" type="file"><br>
+			<span>File must be saved as a .jpg file.</span><br>
+			<span>Please crop to 150px wide X 200px tall before uploading</span><br>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<script src="js/scripts.js">
+	</script>
+</body>
+</html>
