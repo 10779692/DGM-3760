@@ -8,10 +8,8 @@ $photo = $_POST[photo];
 
 //MAKE PHOTO PATH AND NAME
 $ext = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
-echo $ext;
-
-$filename = 'employees/'.$first_name. $last_name.'.'.$ext;
-echo $filename;
+$filename = $first_name. $last_name .time(). '.' . $ext;
+$filepath = 'employees/';
 
 //VERIFY THE IMAGE IS VALID
 $validImage = true;
@@ -40,11 +38,37 @@ if ($_FILES['photo']['type'] == 'image/gif' || $_FILES['photo']['type'] == 'imag
 if ($validImage == true) {
     //upload the file
     $tmp_name = $_FILES['photo']['tmp_name'];
-    move_uploaded_file($tmp_name ,$filename);
+    move_uploaded_file($tmp_name ,"$filepath$filename");
     @unlink($_FILES['photo']['tmp_name']);
+    
+
+    
+    
+    
+    
+//BUILD THE DATABASE CONNECTION WITH host, user, pass, database
+$conn = new mysqli('localhost','jreedtkd_3760usr','dgm3760password','jreedtkd_3760test') or die('Connection Failed');
+
+
+//BUILD THE QUERY
+$sql = "INSERT INTO employee_simple (first_name, last_name, department, phone, photo) VALUES ('$first_name','$last_name','$department','$phone','$filename')";
+    
+    
+//NOW TRY AND TALK TO THE DATABASE
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+    
+//WE'RE DONE SO HANG UP
+$conn->close();
+
+      
+    
 } else {
     //try again
-    echo '<a href="index.html">Please try Again</a>';
+    echo '<a href="index.php">Please try Again</a>';
 };
 ?>
 
@@ -56,9 +80,10 @@ if ($validImage == true) {
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Assignment 5</title>
+	<title>Assignment 6</title>
 	<meta content="The HTML5 Herald" name="description">
 	<meta content="SitePoint" name="author">
+	<meta http-equiv="refresh" content="3;url=https://weblanguages2.jreedtkd.com/project6redo/" />
 	<link href="main.css" rel="stylesheet">
 </head>
 <body>
@@ -66,14 +91,17 @@ if ($validImage == true) {
     
 <?php 
     
-echo '<img src="'.$filename.'" alt="photo">';  
+echo '<img src="'.$filepath.$filename.'" alt="photo">';  
     
 echo '<br>size--'.$_FILES['photo']['size'];
 echo '<br>type--'.$_FILES['photo']['type'];
 echo '<br>temp--'.$_FILES['photo']['tmp_name'];
 echo '<br>name--'.$_FILES['photo']['name'];
+
     
 ?>
+
+<h3>You will be redirected in 3 seconds</h3>
     
     
 </body>
