@@ -1,15 +1,15 @@
-<?php 
+<?php
+require_once('authorize.php');
 require_once('variables.php');
 
 //BUILD THE DATABASE CONNECTION WITH host, user, pass, database
 $conn = new mysqli(HOST,USER,PASSWORD,DB_NAME) or die('Connection Failed');
 
-//BUILD THE SELECT QUERY 
-$sql = "SELECT * FROM blog WHERE approved=1 ORDER BY date ASC";
+//BUILD THE SELECT QUERY
+$sql = "SELECT * FROM blog WHERE approved=0 ORDER BY date";
 
 //NOW TRY AND TALK TO THE DATABASE
 $result = mysqli_query($conn, $sql) or die ('Query Failed');
-
 ?>
 
 <!DOCTYPE html>
@@ -55,10 +55,15 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
     
 	<div id="wrap">
 		<h2>Blog Comments</h2>
+        <br>
         <?php
         //DISPLAY WHAT WE FOUND
         while ($row = mysqli_fetch_array($result)) {
             echo '<article>';
+            echo '<a class="approve" style="color:green;text-decoration:underline;text-align:right;" href=approve2.php?id='.$row['id'].'>Approve</a>';
+            echo '<a class="delete" style="color:red;text-decoration:underline;text-align:right;" href=delete.php?id='.$row['id'].'>Delete</a>';
+            echo '<br>';
+            echo '<br>';
             echo '<h3>'.$row['name'].'</h3>';
             echo '<p class="topic">'.$row['topic'].'</p>';
             echo '<p>'.$row['comment'].'</p>';

@@ -1,17 +1,3 @@
-<?php 
-require_once('variables.php');
-
-//BUILD THE DATABASE CONNECTION WITH host, user, pass, database
-$conn = new mysqli(HOST,USER,PASSWORD,DB_NAME) or die('Connection Failed');
-
-//BUILD THE SELECT QUERY 
-$sql = "SELECT * FROM blog WHERE approved=1 ORDER BY date ASC";
-
-//NOW TRY AND TALK TO THE DATABASE
-$result = mysqli_query($conn, $sql) or die ('Query Failed');
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,18 +40,33 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
 </nav>
     
 	<div id="wrap">
-		<h2>Blog Comments</h2>
-        <?php
-        //DISPLAY WHAT WE FOUND
-        while ($row = mysqli_fetch_array($result)) {
-            echo '<article>';
-            echo '<h3>'.$row['name'].'</h3>';
-            echo '<p class="topic">'.$row['topic'].'</p>';
-            echo '<p>'.$row['comment'].'</p>';
-            echo '<p class="date">'.$row['date'].'</p>';
-            echo '</article>';
-        } //END OF WHILE
-        ?>
+        
+		<h2>Make a Comment</h2>
+        <form action="saveToDatabase.php" method="post">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+  </div>
+              <div class="form-group">
+    <label for="exampleFormControlInput1">Date</label>
+    <input name="date" type="text" class="form-control" id="exampleFormControlInput1" placeholder="01/01/1992">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Topic</label>
+    <select name="topic" class="form-control" id="exampleFormControlSelect1">
+      <option name="topic">Health</option>
+      <option name="topic">Beauty</option>
+      <option name="topic">Life</option>
+      <option name="topic">Social Media</option>
+      <option name="topic">Government</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comment</label>
+    <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
             
 	</div>
 	<script src="scripts.js">
