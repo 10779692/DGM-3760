@@ -113,6 +113,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -149,8 +151,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -182,6 +182,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -218,8 +220,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -251,6 +251,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -287,8 +289,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -320,6 +320,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -356,8 +358,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button  onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -389,6 +389,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -425,8 +427,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button  onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -458,6 +458,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -494,8 +496,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -527,6 +527,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -563,8 +565,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -596,6 +596,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -631,8 +633,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               </div>
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
-                </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
                 </button>
               </div>
             </div>

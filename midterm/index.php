@@ -111,6 +111,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -147,8 +149,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -177,6 +177,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -213,8 +215,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -246,6 +246,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -282,8 +284,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -315,6 +315,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -351,8 +353,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -384,6 +384,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -420,8 +422,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -453,6 +453,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -489,8 +491,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -522,6 +522,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -558,8 +560,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
                 </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
-                </button>
               </div>
             </div>
           </div>
@@ -591,6 +591,8 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
@@ -626,8 +628,6 @@ echo '<p class="card-text">'.$row['email'] .'</p>';
               </div>
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
-                </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
                 </button>
               </div>
             </div>

@@ -113,11 +113,13 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
         <!-- MODAL -->
-        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal9" role="dialog" tabindex="-1">
+        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal17" role="dialog" tabindex="-1">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -148,8 +150,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               </div>
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
-                </button>
-                <button  onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
                 </button>
               </div>
             </div>
@@ -182,11 +182,13 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
         <!-- MODAL -->
-        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal10" role="dialog" tabindex="-1">
+        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal18" role="dialog" tabindex="-1">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -217,8 +219,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               </div>
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
-                </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
                 </button>
               </div>
             </div>
@@ -251,11 +251,13 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
         <!-- MODAL -->
-        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal11" role="dialog" tabindex="-1">
+        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal19" role="dialog" tabindex="-1">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -286,8 +288,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               </div>
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
-                </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
                 </button>
               </div>
             </div>
@@ -320,11 +320,13 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
                 <a>Edit Employee
                 </a>
               </button>
+                <br><br><button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
+                </button>
             </div>
           </div>
         </div>
         <!-- MODAL -->
-        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal12" role="dialog" tabindex="-1">
+        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="Modal20" role="dialog" tabindex="-1">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -355,8 +357,6 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
               </div>
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close
-                </button>
-                <button onclick="return confirm('Are you sure you want to delete selected employee?')" class="btn btn-danger" type="button">Delete Employee
                 </button>
               </div>
             </div>
