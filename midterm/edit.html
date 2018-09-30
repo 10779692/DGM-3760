@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+	<title>Jared Reed | Portfolio</title>
+</head>
+<body>
+	<div class="wrap">
+        <!--FORM-->
+		<div id="form" class="body_padding">
+			<h2>Edit Employee</h2>
+            <br>
+			<form>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Photo:</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Name:</label> <input class="form-control" id="exampleFormControlInput1" placeholder="John Doe" type="text">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Area of Expertise:</label> <input class="form-control" id="exampleFormControlInput1" placeholder="Web Development" type="text">
+				</div>
+                <div class="form-group">
+					<label for="exampleFormControlInput1">Phone:</label> <input class="form-control" id="exampleFormControlInput1" placeholder="(555) 555 5555" type="tel">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email:</label> <input class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" type="email">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Comment Area:</label> 
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div><button class="btn btn-primary mb-2" type="submit">Save</button>
+                <button onclick="goBack()" class="btn btn-primary mb-2" style="background-color: #3a3a3a;" data-dismiss="form" type="button">Close</button>
+			</form>
+    <!--END WRAP-->
+        </div></div><!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+    <script>function goBack() {
+    window.history.back();
+}</script>    
+        <script src="js/script.js"></script>
+</body>
+</html>
