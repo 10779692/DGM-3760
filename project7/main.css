@@ -1,0 +1,30 @@
+body {
+    background-color: #f3f3f3;
+}
+
+#wrap {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #00274c;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+h5 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 100;
+}
+
+.btn-primary {
+    background-color: #39bc00;
+}
+
+.btn-primary:hover {
+    background-color: #40aa33;
+}
+
