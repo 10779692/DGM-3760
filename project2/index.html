@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="Free Web tutorials" name="description">
+	<meta content="HTML,CSS,XML,JavaScript" name="keywords">
+	<meta content="John Doe" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+	<title>Assignment 2 - Simple Contact Form in PHP and MySQL</title>
+</head>
+<body>
+	<h2>Attend Our University</h2>
+	<div class="form-area">
+		<form action="SaveToDatabase.php" method="post">
+			<input name="firstname" placeholder="First Name" type="text" required=""><br>
+			<input name="lastname" placeholder="Last Name" type="text" required=""><br>
+			<input name="university" placeholder="University" type="text" required=""><br>
+			<input name="year" placeholder="Graduation Year" type="text" required=""><br>
+            <input name="email" placeholder="Email" type="text" required=""><br>
+			<select class="dropdown">
+				<option name="gradeyear" value="freshman">
+					Freshman
+				</option>
+				<option name="gradeyear" value="sophomore">
+					Sophomore
+				</option>
+				<option name="gradeyear" value="junior">
+					Junior
+				</option>
+				<option name="gradeyear" value="senior">
+					Senior
+				</option>
+			</select><br>
+			<textarea name="custommessage" cols="95" placeholder="Custom Message" rows="8"></textarea><br>
+			<br>
+			<button class="button" type="submit" value="form submission" name="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
