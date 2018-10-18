@@ -45,7 +45,7 @@ exit;
     <div id="wrap">
     <?php include_once('navbar.php');?>
     <br><br>
-    <h1>Add New User</h1>
+    <h1>Add New Student</h1>
     <form action="add.php" method="POST" enctype="multipart/form-data" name="travelInfo">
     <div class="form-group">
     <label for="exampleInputName1">Full Name</label>
@@ -105,10 +105,10 @@ exit;
     <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="2011" name="year" pattern="[0-9]{4}" required class="year">  
         <br>
     <div class="form-group">
-    <label for="exampleFormControlTextarea1">Please List Your Hobbies</label>
-    <textarea class="form-control"  name="hobbies" id="exampleFormControlTextarea1" rows="3" placeholder="Art, Gunsmithing, Outdoors,..."></textarea>
+    <label for="exampleFormControlTextarea1">Class Name</label>
+    <textarea class="form-control"  name="hobbies" id="exampleFormControlTextarea1" rows="3" placeholder="Little Champions"></textarea>
   </div>
-  <button type="submit" name="submit" value="Add Member" class="btn btn-primary mb-2">Add User</button>
+  <button type="submit" name="submit" value="Add Member" class="btn btn-primary mb-2">Add New Student</button>
   </div>
 
     </form>
