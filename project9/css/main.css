@@ -7,6 +7,11 @@ body {
     margin: 0 auto;
 }
 
+p.searchResults span {
+    color: red;
+    font-weight: bold;
+}
+
 
 form {
     max-width: 700px;
@@ -25,3 +30,4 @@ h1 {
     background-color: #2f3e59;
     border: none;
 }
+
