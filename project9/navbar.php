@@ -7,10 +7,10 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="collapse navbar-collapse" id="navbarNav">
   <ul class="navbar-nav">
 	<li class="nav-item">
-	  <a class="nav-link" href="index.php">Group Directory <span class="sr-only">(current)</span></a>
+	  <a class="nav-link" href="index.php">Student Database<span class="sr-only">(current)</span></a>
 	</li>
 	<li class="nav-item">
-	  <a class="nav-link" href="add.php">Add User</a>
+	  <a class="nav-link" href="add.php">Add New Student</a>
 	</li>
 	<li class="nav-item">
 	  <a class="nav-link" href="search.php">Search</a>
@@ -18,4 +18,4 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   </ul>
 </div>
 </nav>'
-?> 
+?>
