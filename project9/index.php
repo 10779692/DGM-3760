@@ -72,7 +72,7 @@ function convertMonth($a) {
     <div id="wrap">
     <?php include_once('navbar.php');?>
     <br><br>
-    <h1>Group Directory</h1>
+    <h1>Student Database</h1>
        <?php 
         //DISPLAY WHAT WE FOUND
         while ($row = mysqli_fetch_array($result)) {
