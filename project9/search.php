@@ -28,7 +28,7 @@
             //REMOVE COMMAS FROM SEARCH TERMS
             $hobbyCleanUp = str_replace(',','',$hobbies);
             //Turn the list into an array based on a space character
-            $searchTerms = explode('',$hobbyCleanUp);
+            $searchTerms = explode(' OR ',$hobbyCleanUp);
             foreach ($searchTerms as $temp ) {
                 if(!empty($temp)) {
                     $searchArray[] = $temp;
@@ -43,10 +43,11 @@
             //build the complete WHERE with OR between each term
             $whereClause = implode(' OR ',$whereList);
             
+            
             //BUILD THE SEARCH QUERY
             $sql = "SELECT * FROM hobbies";
             if(!empty($whereClause)) {
-                $sql = " WHERE $whereClause";
+                $sql = $sql . " WHERE $whereClause";
             }//end if statement
             echo '<br>';
             echo "<h5>Search Results for '$hobbyCleanUp'</h5>";
@@ -75,6 +76,8 @@ $result = mysqli_query($conn, $sql) or die ('Query Failed');
             }//close num rows count
                 
         }
+        //WERE DONE SO HANG UP
+        mysqli_close($conn);
         ?>
         
     </div>
